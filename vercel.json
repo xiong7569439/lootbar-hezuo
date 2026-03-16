@@ -1,5 +1,5 @@
 {
-  "name": "lootbar-hezuo",
-  "buildCommand": null,
-  "outputDirectory": "."
+  "rewrites": [
+    { "source": "/", "destination": "/lootbar_youtubers.html" }
+  ]
 }
