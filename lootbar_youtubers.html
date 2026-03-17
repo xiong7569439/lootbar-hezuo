@@ -198,17 +198,51 @@
     font-size: 0.78rem;
     font-weight: 600;
   }
+
+  /* 联系信息区块 */
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 6px;
+  }
+  .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .contact-btn:hover { opacity: 0.8; }
+  .contact-twitter  { background: #1a1a2e; color: #1da1f2; border: 1px solid #1da1f2; }
+  .contact-instagram{ background: #2a1a2e; color: #e1306c; border: 1px solid #e1306c; }
+  .contact-twitch   { background: #1e1a2e; color: #9146ff; border: 1px solid #9146ff; }
+  .contact-discord  { background: #1a1e2e; color: #7289da; border: 1px solid #7289da; }
+  .contact-email    { background: #1a2a1e; color: #4caf50; border: 1px solid #4caf50; }
+  .contact-web      { background: #2a2a2a; color: #aaa;     border: 1px solid #444; }
+  .contact-tiktok   { background: #1a2a2a; color: #69c9d0; border: 1px solid #69c9d0; }
+  .contact-booking  { background: #2a1a1a; color: #ff9800; border: 1px solid #ff9800; }
+  .contact-label {
+    font-size: 0.68rem;
+    color: #666;
+    margin-top: 2px;
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
 
 <header>
   <h1>🎮 游戏充值平台 KOL / KOC 合作达人列表</h1>
-  <p>涵盖 LootBar · LDShop · U7Buy 三大平台 · 通过 YouTube 搜索 & 数据挖掘整理 · 更新于 2026-03-16</p>
+  <p>涵盖 LootBar · LDShop · U7Buy 三大平台 · 通过 YouTube 搜索 & 数据挖掘整理 · 更新于 2026-03-17</p>
 </header>
 
 <div class="stats-bar">
-  <div class="stat"><div class="num">50+</div><div class="label">已发现频道</div></div>
+  <div class="stat"><div class="num">60+</div><div class="label">已发现频道</div></div>
   <div class="stat"><div class="num">3</div><div class="label">合作平台</div></div>
   <div class="stat"><div class="num">9+</div><div class="label">游戏类别</div></div>
   <div class="stat"><div class="num">30+</div><div class="label">U7Buy 优惠码</div></div>
@@ -273,14 +307,19 @@
         <div class="avatar" style="background:linear-gradient(135deg,#6a1b9a,#ab47bc)">J</div>
         <div class="channel-info">
           <div class="channel-name">Jack54HD</div>
-          <div class="channel-handle">@Jack54HD</div>
+          <div class="channel-handle">@Jack54HD · 英国 FIFA/FC 创作者</div>
         </div>
       </div>
       <div class="tags">
         <span class="tag tag-partner">合作达人</span>
         <span class="tag tag-game">EA FC / FIFA</span>
+        <span class="tag tag-game">FC Ultimate Team</span>
       </div>
-      <div class="subs">订阅者：<span>60.8 万</span></div>
+      <div class="subs">订阅者：<span>60.8 万</span>（3,328 视频）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitter" href="https://twitter.com/Jack54HD" target="_blank">🐦 @Jack54HD</a>
+        <a class="contact-btn contact-instagram" href="https://www.instagram.com/jack54hd" target="_blank">📸 @jack54hd</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/@Jack54HD" target="_blank">▶ YouTube</a>
         <span class="code-badge">JACK54HD</span>
@@ -330,7 +369,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#0d47a1,#42a5f5)">N</div>
         <div class="channel-info">
           <div class="channel-name">Noblies</div>
-          <div class="channel-handle">@Noblies</div>
+          <div class="channel-handle">@Noblies · 无抽卡挑战专属频道</div>
         </div>
       </div>
       <div class="tags">
@@ -339,7 +378,11 @@
         <span class="tag tag-game">HSR</span>
         <span class="tag tag-game">Wuthering Waves</span>
       </div>
-      <div class="subs">订阅者：<span>19.2 万</span></div>
+      <div class="subs">订阅者：<span>19.2 万</span>（114 视频，3,548万+ 观看）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-discord" href="https://discord.do/noblies" target="_blank">💬 Discord</a>
+        <a class="contact-btn contact-web" href="https://www.youtube.com/@NobliesPlus" target="_blank">▶ 副频道</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/@Noblies" target="_blank">▶ YouTube</a>
       </div>
@@ -444,7 +487,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#e65100,#ff9800)">S</div>
         <div class="channel-info">
           <div class="channel-name">SrTumbao</div>
-          <div class="channel-handle">@SrTumbao</div>
+          <div class="channel-handle">@SrTumbao · 西班牙 Clash Royale 大 V</div>
         </div>
       </div>
       <div class="tags">
@@ -453,6 +496,10 @@
         <span class="tag" style="background:#795548;color:#fff">西语圈</span>
       </div>
       <div class="subs">订阅者：<span>133 万 ⭐</span></div>
+      <div class="contact-row">
+        <a class="contact-btn contact-web" href="https://srtumbao.es" target="_blank">🌐 srtumbao.es</a>
+        <a class="contact-btn contact-twitch" href="https://www.twitch.tv/srtumbao" target="_blank">💜 Twitch</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/@SrTumbao" target="_blank">▶ YouTube</a>
         <span class="code-badge">SRTUMBAO</span>
@@ -483,7 +530,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#006064,#00bcd4)">J</div>
         <div class="channel-info">
           <div class="channel-name">JohnSims</div>
-          <div class="channel-handle">@johnsims_ (Twitch Partner)</div>
+          <div class="channel-handle">@johnsims_ · Twitch Partner · FC Pro Coach</div>
         </div>
       </div>
       <div class="tags">
@@ -492,6 +539,10 @@
         <span class="tag" style="background:#6d4c41;color:#fff">FC Pro Coach</span>
       </div>
       <div class="subs">订阅者：<span>25万+ (Twitch)</span></div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitch" href="https://www.twitch.tv/johnsims_" target="_blank">💜 Twitch</a>
+        <a class="contact-btn contact-twitter" href="https://twitter.com/johnsims_" target="_blank">🐦 @johnsims_</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/@johnsims_" target="_blank">▶ YouTube</a>
         <span class="code-badge">JOHNSIMS</span>
@@ -694,13 +745,15 @@
   </div>
 
   <div class="note-box">
-    <strong>📌 说明</strong><br>
-    本列表通过 YouTube 搜索关键词（"lootbar sponsor code"、"lootbar affiliate code"、"lootbar.gg discount code youtube"）提取 accessibility tree 数据，结合 Web 搜索和 Wethrift.com 优惠码库交叉验证整理而成。<br><br>
+    <strong>📌 LootBar KOL 合作说明</strong><br>
+    本列表通过 YouTube 搜索关键词（"lootbar sponsor code"、"lootbar affiliate code"、"lootbar.gg discount code youtube"）提取数据，结合 Web 搜索和 Wethrift.com 优惠码库交叉验证整理而成。<br><br>
     • <strong>官方频道</strong>：由 LootBar 团队直接运营的 YouTube 频道<br>
     • <strong>合作达人</strong>：频道视频描述中含有 LootBar 专属推广链接或优惠码的创作者<br>
     • <strong>评测频道</strong>：发布 LootBar 使用评测视频，部分已有推广关系<br>
-    • <strong>Zome 频道</strong>：handle 需进一步确认（snapshot 显示同名但内容不同的频道）<br>
-    • 数据采集时间：2026-03-16（第二轮补充更新）；订阅者数量可能随时变化
+    • 数据采集时间：2026-03-17（第三轮补充更新）；订阅者数量可能随时变化<br><br>
+    <strong>🔗 KOL 联系方式说明</strong><br>
+    • 卡片内已标注各创作者的 Twitter、Instagram、Twitch、Discord 等公开联系方式<br>
+    • 部分小 KOC 暂无公开联系方式，可通过 YouTube 频道视频描述留言联系
   </div>
 
   <!-- ================= LDShop 平台 ================= -->
@@ -723,7 +776,11 @@
         <span class="tag tag-game">Wuthering Waves</span>
         <span class="tag" style="background:#880e4f;color:#fff">法语圈</span>
       </div>
-      <div class="subs">订阅者：<span>3,636（YouTube）</span></div>
+      <div class="subs">订阅者：<span>3,636（YouTube）</span> · 直播命令 !ldshop 已确认</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitch" href="https://www.twitch.tv/mccnixin" target="_blank">💜 Twitch</a>
+        <a class="contact-btn contact-twitter" href="https://twitter.com/MccNixin" target="_blank">🐦 @MccNixin</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/channel/UCuIwWT8pMBJI_FagTCRvkDA" target="_blank">▶ YouTube</a>
         <span class="code-badge">LDShop 联盟链接</span>
@@ -744,16 +801,69 @@
         <span class="tag" style="background:#880e4f;color:#fff">法语圈</span>
       </div>
       <div class="subs">订阅者：<span>—（副频道）</span></div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitch" href="https://www.twitch.tv/mccnixin" target="_blank">💜 同主 Twitch</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/channel/UCjmXCHT7nDajbeo0kNmR_Sw" target="_blank">▶ YouTube</a>
       </div>
     </div>
 
+    <!-- Noblies - LDShop 合作 -->
+    <div class="card" style="border:1px solid #1565c0;">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#0d47a1,#42a5f5)">NB</div>
+        <div class="channel-info">
+          <div class="channel-name">Noblies</div>
+          <div class="channel-handle">@Noblies · 无抽卡挑战 Genshin</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Genshin Impact</span>
+        <span class="tag tag-game">HSR</span>
+        <span class="tag tag-game">Wuthering Waves</span>
+        <span class="tag" style="background:#1a237e;color:#fff">LDShop 赞助</span>
+      </div>
+      <div class="subs">订阅者：<span>19.2 万</span>（视频描述含 LDShop 推广链接）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-discord" href="https://discord.do/noblies" target="_blank">💬 Discord</a>
+        <a class="contact-btn contact-web" href="https://www.youtube.com/@NobliesPlus" target="_blank">▶ 副频道</a>
+      </div>
+      <div class="card-footer">
+        <a class="btn btn-yt" href="https://www.youtube.com/@Noblies" target="_blank">▶ YouTube</a>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop.gg 专属链接</span>
+      </div>
+    </div>
+
+    <!-- TGB Genshin - WuWa -->
+    <div class="card">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#1b5e20,#66bb6a)">G</div>
+        <div class="channel-info">
+          <div class="channel-name">GachaHub</div>
+          <div class="channel-handle">@desigachahub · Genshin/WuWa 攻略</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Genshin Impact</span>
+        <span class="tag tag-game">Wuthering Waves</span>
+        <span class="tag" style="background:#1a237e;color:#fff">LDShop 赞助</span>
+      </div>
+      <div class="subs">订阅者：<span>1.25 万</span></div>
+      <div class="card-footer">
+        <a class="btn btn-yt" href="https://www.youtube.com/@desigachahub" target="_blank">▶ YouTube</a>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop.gg 专属链接</span>
+      </div>
+    </div>
+
+    <!-- 鸣潮 HSR 台湾创作者 -->
     <div class="card">
       <div class="card-header">
         <div class="avatar" style="background:linear-gradient(135deg,#1a237e,#5c6bc0)">W</div>
         <div class="channel-info">
-          <div class="channel-name">鸣潮 HSR 台湾创作者</div>
+          <div class="channel-name">鸣潮 / HSR 台湾创作者</div>
           <div class="channel-handle">星穹铁道解谜频道（抖音/YT）</div>
         </div>
       </div>
@@ -764,15 +874,58 @@
       </div>
       <div class="subs">订阅者：<span>— (待确认)</span></div>
       <div class="card-footer">
-        <span class="code-badge">LDShop 联盟链接 T4noHqVnj</span>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop.gg/T4noHqVnj</span>
       </div>
     </div>
 
+    <!-- Hirushi - Genshin + LDShop -->
     <div class="card">
       <div class="card-header">
-        <div class="avatar" style="background:linear-gradient(135deg,#e65100,#ff9800)">G</div>
+        <div class="avatar" style="background:linear-gradient(135deg,#e65100,#ffa726)">H</div>
         <div class="channel-info">
-          <div class="channel-name">ZZZ 直播主（未命名）</div>
+          <div class="channel-name">Hirushi</div>
+          <div class="channel-handle">@Hirushi · Genshin 单机攻略</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Genshin Impact</span>
+        <span class="tag" style="background:#1a237e;color:#fff">LDShop 赞助</span>
+      </div>
+      <div class="subs">订阅者：<span>9.56 万</span></div>
+      <div class="card-footer">
+        <a class="btn btn-yt" href="https://www.youtube.com/@Hirushi" target="_blank">▶ YouTube</a>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop 专属链接</span>
+      </div>
+    </div>
+
+    <!-- MattLong6 - Genshin + LDShop -->
+    <div class="card">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#006064,#26c6da)">M</div>
+        <div class="channel-info">
+          <div class="channel-name">MattLong6</div>
+          <div class="channel-handle">@MattLong6 · Genshin 攻略</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Genshin Impact</span>
+        <span class="tag" style="background:#1a237e;color:#fff">LDShop 赞助</span>
+      </div>
+      <div class="subs">订阅者：<span>2.05 万</span></div>
+      <div class="card-footer">
+        <a class="btn btn-yt" href="https://www.youtube.com/@MattLong6" target="_blank">▶ YouTube</a>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop 专属链接</span>
+      </div>
+    </div>
+
+    <!-- ZZZ 直播主 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#e65100,#ff9800)">Z</div>
+        <div class="channel-info">
+          <div class="channel-name">ZZZ 直播主（合约确认）</div>
           <div class="channel-handle">Zenless Zone Zero 赠月卡主播</div>
         </div>
       </div>
@@ -782,7 +935,47 @@
       </div>
       <div class="subs">订阅者：<span>— (待确认)</span></div>
       <div class="card-footer">
-        <span class="code-badge">chain.ldshop.gg/T4DgoQhDk · 23% off</span>
+        <span class="code-badge" style="background:#1565c0">chain.ldshop.gg/T4DgoQhDk · 23% off</span>
+      </div>
+    </div>
+
+    <!-- Ngatia Gaming -->
+    <div class="card">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#bf360c,#ff7043)">N</div>
+        <div class="channel-info">
+          <div class="channel-name">Ngatia Gaming</div>
+          <div class="channel-handle">@NgatiaGaming · 东非英语圈</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Wuthering Waves</span>
+        <span class="tag" style="background:#1a237e;color:#fff">LDShop 赞助</span>
+      </div>
+      <div class="subs">订阅者：<span>5,560</span></div>
+      <div class="card-footer">
+        <a class="btn btn-yt" href="https://www.youtube.com/@NgatiaGaming" target="_blank">▶ YouTube</a>
+        <a class="btn btn-info" href="https://lootbar.gg/a/aZoW2R" target="_blank">🔗 专属链接</a>
+      </div>
+    </div>
+
+    <!-- J3C07 - Wuwa KOC -->
+    <div class="card">
+      <div class="card-header">
+        <div class="avatar" style="background:linear-gradient(135deg,#006064,#80deea)">J</div>
+        <div class="channel-info">
+          <div class="channel-name">J3C07</div>
+          <div class="channel-handle">Wuthering Waves Lunites 充值创作者</div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag tag-partner">合作达人</span>
+        <span class="tag tag-game">Wuthering Waves</span>
+      </div>
+      <div class="subs">订阅者：<span>— (KOC)</span></div>
+      <div class="card-footer">
+        <span class="code-badge" style="background:#1565c0">chain.ldshop 专属链接</span>
       </div>
     </div>
 
@@ -797,12 +990,15 @@
     <span class="code-badge" style="background:#1565c0">每月月卡抽奖（直播赠品）</span>
   </div>
   <div class="note-box" style="border-left-color:#42a5f5;">
-    <strong>📌 LDShop 合作特点</strong><br>
+    <strong>📌 LDShop 合作特点 &amp; 联系方式</strong><br>
     LDShop 主要通过<strong>联盟链接</strong>（chain.ldshop.gg/XXXXX）而非固定优惠码进行 KOL 合作，每个创作者拥有专属追踪链接。<br><br>
     • 合作游戏主要为：Genshin Impact、Honkai: Star Rail、Zenless Zone Zero、Wuthering Waves、PUBG Mobile<br>
     • 主要市场：东南亚（越南语/印尼语/泰语）、法语圈、繁体中文圈、巴西葡语圈<br>
     • 合作创作者规模从 3K 小 KOC 到大型直播主不等，属于广撒网策略<br>
-    • 数据来源：CouponWCode.com、YouTube 视频描述、Twitch 直播命令（!ldshop）
+    • 数据来源：CouponWCode.com、YouTube 视频描述、Twitch 直播命令（!ldshop）<br><br>
+    <strong>🔗 LDShop 官方联系渠道：</strong><br>
+    • Discord 服务器：<a href="https://discord.gg/ldshopgg" style="color:#42a5f5" target="_blank">discord.gg/ldshopgg</a>（3,602 成员）<br>
+    • 官网：<a href="https://ldshop.gg" style="color:#42a5f5" target="_blank">ldshop.gg</a>（隶属 LDPlayer 旗下）
   </div>
 
   <!-- ================= U7Buy 平台 ================= -->
@@ -817,7 +1013,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#b71c1c,#ef5350)">N</div>
         <div class="channel-info">
           <div class="channel-name">NepentheZ</div>
-          <div class="channel-handle">@NepentheZ · 英国 EA FC KOL</div>
+          <div class="channel-handle">Craig Douglas · 英国 EA FC KOL</div>
         </div>
       </div>
       <div class="tags">
@@ -826,7 +1022,16 @@
         <span class="tag" style="background:#f57f17;color:#fff">⭐ 头部 KOL</span>
         <span class="tag" style="background:#1a237e;color:#fff">英语圈</span>
       </div>
-      <div class="subs">订阅者：<span>196 万（971M+ 总观看）</span></div>
+      <div class="subs">订阅者：<span>196 万</span>（971M+ 总观看，Sidemen 关联创作者）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitter" href="https://twitter.com/NepentheZ" target="_blank">🐦 @NepentheZ</a>
+        <a class="contact-btn contact-instagram" href="https://instagram.com/NepentheZ" target="_blank">📸 @NepentheZ</a>
+        <a class="contact-btn contact-twitch" href="https://twitch.tv/nepenthez" target="_blank">💜 Twitch</a>
+        <a class="contact-btn contact-discord" href="https://discord.gg/nepenthez" target="_blank">💬 Discord</a>
+        <a class="contact-btn contact-tiktok" href="https://tiktok.com/@NepentheZ" target="_blank">🎵 TikTok</a>
+        <a class="contact-btn contact-booking" href="https://mn2s.com/booking-agency/talent-roster/nepenthez/" target="_blank">📞 经纪: MN2S</a>
+      </div>
+      <div class="contact-label">经纪人: Sharron Elkabas · Tel: +44 207 234 9455</div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/@NepentheZ" target="_blank">▶ YouTube</a>
         <span class="code-badge" style="background:#b71c1c">NEP · 8% FC25金币</span>
@@ -839,7 +1044,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#1b5e20,#4caf50)">S</div>
         <div class="channel-info">
           <div class="channel-name">SAMUjuega</div>
-          <div class="channel-handle">@SAMUjuega00</div>
+          <div class="channel-handle">Samuel Birladeanu Potopea · @SAMUjuega00</div>
         </div>
       </div>
       <div class="tags">
@@ -847,7 +1052,11 @@
         <span class="tag tag-game">Roblox</span>
         <span class="tag" style="background:#795548;color:#fff">西语圈</span>
       </div>
-      <div class="subs">订阅者：<span>55万+（Roblox 社区 8,535 人）</span></div>
+      <div class="subs">订阅者：<span>55万+</span>（Roblox 社区 8,535 人）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-email" href="mailto:marketing@u7buy.com" target="_blank">📧 合作: marketing@u7buy.com</a>
+      </div>
+      <div class="contact-label">真实姓名已见于公开合同文件（PDF）</div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/channel/UCGxOjP7MPN1vD-xKACadLOg" target="_blank">▶ YouTube</a>
         <span class="code-badge">SAMUJUEGA · 30% off</span>
@@ -860,7 +1069,7 @@
         <div class="avatar" style="background:linear-gradient(135deg,#e65100,#ff7043)">F</div>
         <div class="channel-info">
           <div class="channel-name">FIERY GAMER</div>
-          <div class="channel-handle">@fiery_gamerlive</div>
+          <div class="channel-handle">@fiery_gamerlive · 综合游戏</div>
         </div>
       </div>
       <div class="tags">
@@ -868,7 +1077,11 @@
         <span class="tag tag-game">综合游戏</span>
         <span class="tag" style="background:#e65100;color:#fff">🔥 当前最优码</span>
       </div>
-      <div class="subs">订阅者：<span>12.8万（1272 视频，1190万+ 观看）</span></div>
+      <div class="subs">订阅者：<span>12.8万</span>（1272 视频，1190万+ 观看）</div>
+      <div class="contact-row">
+        <a class="contact-btn contact-twitter" href="https://twitter.com/fiery_gamerlive" target="_blank">🐦 @fiery_gamerlive</a>
+        <a class="contact-btn contact-email" href="mailto:marketing@u7buy.com" target="_blank">📧 合作: U7Buy</a>
+      </div>
       <div class="card-footer">
         <a class="btn btn-yt" href="https://www.youtube.com/channel/UC6BeKj9TesrX7u8DdsnSMqw" target="_blank">▶ YouTube</a>
         <span class="code-badge" style="background:#e65100">FIERY · 33% off</span>
@@ -1438,7 +1651,10 @@
     • <strong>合作平台：</strong>YouTube（长视频 + Shorts）、Twitch 直播、TikTok<br>
     • <strong>付费模式：</strong>固定月费（合同披露金额：$290–$3000/月，视频等级不同），另有推广码带单佣金<br>
     • <strong>头部 KOL 代表：</strong>NepentheZ（196万订阅，英国 EA FC KOL，历史优惠码 NEP）<br>
-    • <strong>数据来源：</strong>static.u7buy.com 公开合同 PDF、Wethrift.com（30 码）、HotDeals.com 优惠码页面
+    • <strong>数据来源：</strong>static.u7buy.com 公开合同 PDF、Wethrift.com（30 码）、HotDeals.com 优惠码页面<br><br>
+    <strong>🔗 U7Buy 官方联系渠道：</strong><br>
+    • 合作/赞助联系邮箱：<a href="mailto:marketing@u7buy.com" style="color:#66bb6a">marketing@u7buy.com</a><br>
+    • 官网合作页：<a href="https://www.u7buy.com/contact-us" style="color:#66bb6a" target="_blank">u7buy.com/contact-us</a>（Want to promote U7BUY and get sponsored at YouTube, TikTok, etc.）
   </div>
 
 </div>
